@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation1"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.examenochoajonnathan.Login"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_inicio"
+            app:destination="@id/inicio" />
+        <action
+            android:id="@+id/action_login_to_registro"
+            app:destination="@id/registro" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.examenochoajonnathan.Inicio"
+        android:label="Inicio" />
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.examenochoajonnathan.Registro"
+        android:label="Registro" >
+        <action
+            android:id="@+id/action_registro_to_inicio"
+            app:destination="@id/inicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/acerca"
+        android:name="com.example.examenochoajonnathan.Acerca"
+        android:label="Acerca" />
+    <fragment
+        android:id="@+id/agenda"
+        android:name="com.example.examenochoajonnathan.Agenda"
+        android:label="Agenda" />
+</navigation>

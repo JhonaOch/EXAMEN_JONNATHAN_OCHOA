@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".Agenda">
+
+        <TextView
+            android:id="@+id/Datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" AGENDA"
+            android:textSize="30dp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="  Titulo:" />
+
+        <TextView
+            android:id="@+id/nombre1"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="INTERNACIONAL SOBRE CERVANTES" />
+
+        <TextView
+            android:id="@+id/apellido"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Descripcion:" />
+
+        <TextView
+            android:id="@+id/nombre22"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="Miguel de Cervantes Saavedra, nacido en Alcalá de Henares, España, en 1547, era hijo de un cirujano. " />
+
+        <TextView
+            android:id="@+id/Cedula1"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Fecha:" />
+
+        <TextView
+            android:id="@+id/nombre222"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="1998. Wien " />
+
+        <TextView
+            android:id="@+id/nombre122"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="  Titulo:" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/nombre2"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="International Conference on Childhood" />
+
+
+
+        <TextView
+            android:id="@+id/apellido11"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Descripcion:" />
+
+        <TextView
+            android:id="@+id/nombre2211"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="Técnicos, especialistas, investigadores, docentes, entre otros, se reúnen y reflexionan sobre temas sociales de suma importancia que afectan la vida. " />
+
+
+        <TextView
+            android:id="@+id/Cedula0"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Fecha:" />
+        <TextView
+            android:id="@+id/nombre2222"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="1998. Londres " />
+
+        <TextView
+            android:id="@+id/nombre12w2"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="  Titulo:" />
+
+
+        <TextView
+            android:id="@+id/nombre3"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="Congress on Botanic" />
+
+
+        <TextView
+            android:id="@+id/apellido112"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Descripcion:" />
+
+        <TextView
+            android:id="@+id/nombre22211"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="El Congreso Mundial de Jardines Botánicos de BGCI es el único congreso mundial dedicado a los jardines botánicos y es un evento clave en el calendario para los líderes y el personal de los jardines botánicos." />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/Cedula"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Fecha:" />
+
+        <TextView
+            android:id="@+id/nombre222ss2"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="1996. Bournemouth, Gran Bretaña " />
+
+
+
+
+
+
+    </LinearLayout>
+</layout>

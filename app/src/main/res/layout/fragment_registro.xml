@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".Registro">
+
+
+        <TextView
+            android:id="@+id/Datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" REGISTRO"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="  Nombres:" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/apellido"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Apellidos:" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:text="LastName" />
+
+        <TextView
+            android:id="@+id/Cedula"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="  Cedula:" />
+
+        <EditText
+            android:id="@+id/idC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Identification" />
+
+
+
+        <TextView
+            android:id="@+id/correo"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="20dp"
+            android:text="   Correo:" />
+
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="gmail"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/buttonRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Siguiente" />
+
+    </LinearLayout>
+</layout>
